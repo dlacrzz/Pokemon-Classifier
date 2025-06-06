@@ -54,3 +54,4 @@ function uploadImage() {
     resultText.innerText = 'Error: ' + err;
   });
 }
+
