@@ -31,7 +31,7 @@ def predict():
     try:
         image = Image.open(io.BytesIO(file.read()))
         image = image.convert('RGB')
-        image = image.resize((64, 64))
+        image = image.resize((128, 128))
         imageArray = np.array(image) / 255.0
         imageArray = np.expand_dims(imageArray, axis=0)
 
