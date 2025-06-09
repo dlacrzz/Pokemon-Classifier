@@ -4,6 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 import json
 import io
+import os
 from PIL import Image
 
 model = load_model('model.h5')
